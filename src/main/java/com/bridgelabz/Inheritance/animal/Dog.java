@@ -1,4 +1,4 @@
-package interviewDurgesh.inheritance.animal;
+package com.bridgelabz.Inheritance.animal;
 
 // Dog.java
 public class Dog extends Animal {

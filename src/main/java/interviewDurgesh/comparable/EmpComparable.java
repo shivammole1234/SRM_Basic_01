@@ -9,7 +9,7 @@ public class EmpComparable implements Comparable<EmpComparable> {
 
     @Override
     public int compareTo(EmpComparable o) {  // comparing based on id
-        return this.id-o.getId();
+        return this.name.compareTo(o.name);
     }
     public EmpComparable(String name, int id, int phoneNumber) {
         this.name = name;
@@ -38,5 +38,7 @@ public class EmpComparable implements Comparable<EmpComparable> {
                 '}';
     }
 
+    public static void main(String[] args) {
 
+    }
 }

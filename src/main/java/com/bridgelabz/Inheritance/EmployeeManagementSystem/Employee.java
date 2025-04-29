@@ -1,6 +1,6 @@
-package interviewDurgesh.inheritance.employee;
+package com.bridgelabz.Inheritance.EmployeeManagementSystem;
 
-// Employee.java
+// Base class for all employees
 public class Employee {
     protected String name;
     protected int id;
@@ -13,6 +13,8 @@ public class Employee {
     }
 
     public void displayDetails() {
-        System.out.println("Name: " + name + ", ID: " + id + ", Salary: $" + salary);
+        System.out.println("ID: " + id);
+        System.out.println("Name: " + name);
+        System.out.println("Salary: " + salary);
     }
 }

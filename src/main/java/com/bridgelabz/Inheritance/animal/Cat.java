@@ -1,4 +1,4 @@
-package interviewDurgesh.inheritance.animal;
+package com.bridgelabz.Inheritance.animal;
 
 // Cat.java
 public class Cat extends Animal {
